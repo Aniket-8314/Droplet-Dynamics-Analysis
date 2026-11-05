@@ -103,25 +103,15 @@ current working directory.
 
 ## Generated Outputs
 
-  -----------------------------------------------------------------------
-  Output                              Description
-  ----------------------------------- -----------------------------------
-  `Figure2.jpg`                       Detected droplet boundary on the
-                                      first frame
+| Output | Description | Visual Preview |
+| :--- | :--- | :--- |
+| `Figure2.jpg` | Detected droplet boundary on the first frame | ![Boundary](figures/Figure2.jpg) |
+| `Figure3.jpg` | Droplet bounding rectangle on the first frame | ![Bounding Box](figures/Figure3.jpg) |
+| `Figure4.jpg` | Horizontal and vertical diameter evolution over time | ![Diameter](figures/Figure4.jpg) |
+| `Figure5.jpg` | Estimated droplet volume over time | ![Volume](figures/Figure5.jpg) |
+| `Figure6.jpg` | Centroid vertical position with detected bounce points | ![Bounce Points](figures/Figure6.jpg) |
+| `Figure7.jpg` | Top and bottom boundary height tracking | ![Height Tracking](figures/Figure7.jpg) |
 
-  `Figure3.jpg`                       Droplet bounding rectangle on the
-                                      first frame
-
-  `Figure4.jpg`                       Horizontal and vertical diameter
-                                      evolution over time
-
-  `Figure5.jpg`                       Estimated droplet volume over time
-
-  `Figure6.jpg`                       Centroid vertical position with
-                                      detected bounce points
-
-  `Figure7.jpg`                       Top and bottom boundary height
-                                      tracking
   -----------------------------------------------------------------------
 
 The script also prints the frame dimensions, calibration scale,
